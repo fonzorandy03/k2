@@ -36,4 +36,15 @@
   	<role-name>registeredUser</role-name>
   </security-role>
   
+  <error-page>
+  <error-code>404</error-code>
+  <location>/Errore404.jsp</location>
+</error-page>
+
+<error-page>
+  <error-code>500</error-code>
+  <location>/Erorre500.jsp</location>
+</error-page>
+  
+  
 </web-app>

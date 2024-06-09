@@ -4,13 +4,16 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Geek Factory Project</title>
 	<link rel="stylesheet" href="./css/intro-style.css">
 	<link rel="icon" href="./img/icon.png">
 	
-	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<!-- Aggiungi gli attributi integrity e crossorigin -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+	        integrity="sha384-hash_generated_da_sri_hash_generator"
+	        crossorigin="anonymous"></script>
 </head>
 <body>
 

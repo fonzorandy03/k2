@@ -132,6 +132,9 @@ INSERT INTO UserAccount (email, passwordUser, nome, cognome, indirizzo, telefono
 VALUES ('alemanzoni@gmail.com', MD5('45678912'), 'Alessandro', 'Manzoni', 'Milano, Via Gerolamo Morone 1', '3512579112', '7182192004621234', 'Alessandro Manzoni', 172); 
 INSERT INTO UserAccount (email, passwordUser, nome, cognome, indirizzo, telefono, numero, intestatario, CVV)
 VALUES ('pessimismocosmico@libero.it', MD5('45678912'), 'Giacomo', 'Leopardi', 'Recanati, Via Leopardi 14', '3519928000', '1672819100321234', 'Giacomo Leopardi', 671);
+INSERT INTO UserAccount (email, passwordUser, nome, cognome, indirizzo, telefono, numero, intestatario, CVV, ruolo)
+VALUES ('pollina@gmail.com', 'ef797c8118f02d4c392d61b95fdfdc1779e9472a239bc5b847343a45ed786ca0', 'Salvatore', 'Martorano', 'via dante 25', '3279825458', '1254829657412563', 'Salvatore Martorano', '128', 'venditore');
+VALUES ('mario@gmail.com', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'Luigi', 'Bianchi', 'via roma 32', '3284569824', '1111222233334444', 'Luigi Bianchi', '567', 'cliente');
 
 /* cliente data */
 INSERT INTO Cliente (email) VALUES ('geekfactory@gmail.com');
